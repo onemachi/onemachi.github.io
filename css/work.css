@@ -56,14 +56,39 @@ ul a {
 	margin-top: -1rem;
 }
 .zhname{
+	display: inline-block;
 	margin-left: 2rem;
 	letter-spacing: 0.2rem;
 	color: white;
 }
 .enname{
-	margin-left: 10.5rem;
+	display: inline-block;
+	margin-left: 0.5rem;
 	letter-spacing: 0.1rem;
 	color: white;
+}
+@media screen and (max-width: 1280px){
+	.title{
+		display: inline-block;
+		font-size: 1.25rem;
+		height: 2.5rem;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		margin-top: -1.5rem;
+	}
+	.enname{
+		display: block;
+		margin-left: 1rem;
+		letter-spacing: 0.1rem;
+		color: white;
+	}
+	.zhname{
+	display: inline-block;
+	margin-left: 1rem;
+	letter-spacing: 0.2rem;
+	color: white;
+}
 }
 .menu, .menu_b{margin: 6vh 0 0 calc(8.5vw + 2rem);}
 .menu-txt{
@@ -94,3 +119,77 @@ ul a {
 	font-weight: normal;
 }
 a{color: #393939;}
+@media screen and (max-width: 600px){
+	html{background-color: #448aca;}
+	.logo{
+		width: 12vw;
+		height: 12vw;
+		border-radius: 100%;
+		overflow: hidden;
+	}
+	.head{margin: 5vh 0 0 5vw;}
+	.sidebar {
+
+		padding: 0;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+        margin-bottom: 0;
+        left: 0;
+        right: 0;
+	}
+	.content{
+		position: fixed;
+		width: 100%;
+		top: 200px;
+		bottom: 0;
+		right: 0;
+		overflow-y: scroll;
+	}
+	.menu-txt{
+		font-size: 1rem;
+		display: block;
+		letter-spacing: 0.2rem;
+		padding-bottom: 2vh;
+		margin: 0 2vw 0 0;
+		width: 10rem;
+	}
+	.work_pic{
+		width: 80%;
+		margin: 8vh 0 0 calc(8.5vw + 2rem);
+	}
+	.work_txt{
+		margin: 1vh 0 0 calc(8.5vw + 2rem);
+		font-size: 2rem;
+		font-weight: bold;
+	}
+	.type{
+		margin: 1vh 0 0 calc(8.5vw + 2rem);
+		font-size: 1.25rem;
+		font-weight: normal;
+	}
+	.title{
+		display: inline-block;
+		font-size: 1.75rem;
+		height: 2rem;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		margin-top: -1rem;
+	}
+	.zhname{
+		display: inline-block;
+		margin-left: 1rem;
+		letter-spacing: 0.2rem;
+		color: white;
+	}
+	.enname{
+		display: inline-block;
+		margin-left: 0.5rem;
+		letter-spacing: 0.1rem;
+		color: white;
+	}
+	.menu_b{display: none;}
+
+}
