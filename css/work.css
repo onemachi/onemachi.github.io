@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html{background-color: #eaeaea;}
+a{text-decoration: none;}
+.sidebar {
+	background: #448aca;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 35%;
+}
+.content{
+	position: fixed;
+	width: 65%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	overflow-y: scroll;
+}
+ul{list-style-type: none;}
+ul a {
+	text-decoration: none;
+	font-size: 1.15rem;
+	font-weight: 100;
+	color: white;
+	display: block;
+	padding: 0.3rem 0 2vh 0;
+}
+.logo_container{display: inline-block;}
+.logo{
+    width: 5.5vw;
+    height: 5.5vw;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.head{
+	margin: 5vh 0 0 3vw ;
+	position: relative;
+}
+.title{
+	display: inline-block;
+	font-size: 1.75rem;
+	height: 2rem;
+	width: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -1rem;
+}
+.zhname{
+	margin-left: 2rem;
+	letter-spacing: 0.2rem;
+	color: white;
+}
+.enname{
+	margin-left: 10.5rem;
+	letter-spacing: 0.1rem;
+	color: white;
+}
+.menu, .menu_b{margin: 6vh 0 0 calc(8.5vw + 2rem);}
+.menu-txt{
+	font-size: 1.15rem;
+	display: inline-block;
+	width: 12vw;
+	letter-spacing: 0.2rem;
+	padding-bottom: 2vh;
+	margin: 0 2vw 0 0;
+}
+.menu-work{
+	color: white;
+	border-bottom: 1.25px solid white;
+}
+.menu_b{margin-top: 3vh;}
+.work_pic{
+	width: 80%;
+	margin: 8vh 5vw 0;
+}
+.work_txt{
+	margin: 1vh 0 0 5vw;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.type{
+	margin: 1vh 0 0 5vw;
+	font-size: 1.25rem;
+	font-weight: normal;
+}
+a{color: #393939;}

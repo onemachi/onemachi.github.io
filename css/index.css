@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+
+html{background-color: #eaeaea;}
+a{text-decoration: none;}
+
+
+.logo_container{display: inline-block;}
+.logo{
+    width: 5.5vw;
+    height: 5.5vw;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.head{
+	margin: 5vh 0 0 3vw ;
+	position: relative;
+}
+.title{
+	display: inline-block;
+	font-size: 1.75rem;
+	height: 2rem;
+	width: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -1rem;
+
+}
+.zhname{
+	margin-left: 2rem;
+	letter-spacing: 0.2rem;
+}
+.enname{
+	margin-left: 10.5rem;
+	letter-spacing: 0.1rem;
+	color: grey;
+}
+.menu, .content{margin: 6vh 0 0 calc(8.5vw + 2rem);}
+.menu-txt{
+	font-size: 1.15rem;
+	display: inline-block;
+	width: 12vw;
+	letter-spacing: 0.2rem;
+	padding-bottom: 2vh;
+	margin: 0 2vw 0 0;
+}
+.menu-txt:link, .menu-txt:visited{
+	color: #949494;
+	border-bottom: 1.25px solid #d7d7d7;
+}
+.menu-txt:hover, .menu-txt:active, .menu-hi:link, .menu-hi:visited{
+	color: #393939;
+	border-bottom: 1.25px solid #393939;
+}
+
+.content{margin-top: 8vh;}
+.hello{
+	font-size: 1.25rem;
+	letter-spacing: 0.125rem;
+	color: grey;
+}
+.rzh{
+	font-size: 4vw;
+	letter-spacing: 0.625vw;
+	font-weight: 600;
+	padding-bottom: 1.5vh;
+}
+
+.CUC, .major, .hobby{
+	font-size: 1.5vw;
+	color: grey;
+	letter-spacing: 0.125vw;
+	line-height: 2.5vw;
+}
+
